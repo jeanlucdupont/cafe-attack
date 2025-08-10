@@ -16,5 +16,5 @@ This lab explores how a hybrid/domain-joined laptop can be tricked into sending 
 - If NTLMv2: Use John the Ripper or Hashcat with targeted wordlists/masks.
 
 **Disclaimer**
-- This project is for educational and lab use only. (It does not at this stage anyway)
+- This project is for educational and lab use only. (It does not work at this stage anyway)
 - Do not run these tools on any network without explicit authorization. Unauthorized use can cause denial of service and legal consequences.
