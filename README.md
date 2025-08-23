@@ -9,11 +9,7 @@ This lab explores how a hybrid/domain-joined laptop can be tricked into sending 
 - DHCP-exhaust.py : consumes all available leases from the café’s DHCP server.
 - roguedhcp.py : responds to DHCP requests, pointing victims to our rogue DNS server.
 - Rogue DNS : rogueDNS.py intercepts DNS lookups and Redirects _ldap._tcp.dc._msdcs.<domain> to our rogue DC IP.
-- Rogue DC : rogueDC.py pretends to be a Domain Controller and captures NTLM authentication attempts if SMB signing is not enforced.
-
-**Offline Cracking of Captured NTLM**   
-- If NTLMv1: Use rainbow table attack with RainbowCrack or Hashcat.
-- If NTLMv2: Use John the Ripper or Hashcat with targeted wordlists/masks.
+- Rogue DC : rogueDC.py pretends to be a Domain Controller and captures NTLM authentication attempts.
 
 **Disclaimer**
 - This project is for educational and lab use only. (It does not work at this stage anyway)
